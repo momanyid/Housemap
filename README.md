@@ -1,4 +1,4 @@
-# 🏡 House-Hunting Platform
+# 🏡 Housemap
 
 ## 📌 Overview
 Our House-Hunting Platform is a web-based application that enables users to find vacant houses displayed on an interactive map. Users can view property details such as location, rent, and availability. Future updates will include user ratings and reviews.
@@ -13,7 +13,6 @@ Our House-Hunting Platform is a web-based application that enables users to find
 ## 🛠️ Tech Stack
 ### Frontend
 - ⚛️ React (TypeScript)
-- 📍 Leaflet.js (Map Integration)
 
 ### Backend
 - 🟢 Node.js (Express.js)
@@ -53,18 +52,16 @@ This project is licensed under the MIT License.
 ## 💡 How to Run
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-repo/house-hunting-platform.git
-cd house-hunting-platform
+git clone https://github.com/momanyid/housemap.git
+cd housemap
 ```
 ### 2️⃣ Install Dependencies
 ```bash
-cd backend && npm install
-cd ../frontend && npm install
+cd housemap && npm install
 ```
 ### 3️⃣ Start the Application
 ```bash
-cd backend && npm start
-cd frontend && npm start
+npm run dev
 ```
 
 ## 🎯 Future Enhancements
